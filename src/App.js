@@ -4,6 +4,7 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom'
 import Shop from './pages/shop/Shop.jsx';
 import Header from './components/header/header.jsx';
+import SignUp from './pages/sign-in-and-sign-up/signinsignup';
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' component={HomePage} />
             <Route path='/shop' component={Shop} />
+            <Route path='/signin' component={SignUp} />
           </Switch>
       </div>
     );
