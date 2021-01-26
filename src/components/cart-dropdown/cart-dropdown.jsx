@@ -4,7 +4,7 @@ import CustomButton from '../custom-button/custom-button'
 
 const CartDropdown = () => (
     <div className="cart-dropdown">
-        <div className="cart-items">
+        <div className="cart-items ">
             <CustomButton>CHECKOUT</CustomButton>
         </div>
     </div>
