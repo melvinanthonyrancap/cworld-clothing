@@ -10,4 +10,21 @@ body {
   
   * {
     box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: grey  white;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+    border: 1px solid white;
   }
